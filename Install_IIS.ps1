@@ -32,7 +32,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName     IIS-NetFxExtensibility
 Enable-WindowsOptionalFeature -Online -FeatureName     IIS-NetFxExtensibility45
 Enable-WindowsOptionalFeature -Online -FeatureName     IIS-ASP
 Enable-WindowsOptionalFeature -Online -FeatureName     IIS-ASPNET
-Enable-WindowsOptionalFeature -Online -FeatureName     IIS-ASPNET45   
+Enable-WindowsOptionalFeature -Online -FeatureName     IIS-ASPNET45
+Enable-WindowsOptionalFeature -Online -FeatureName     WAS-NET-Environment
 Install-WindowsFeature Net-Framework-Core -source $Caminho
 Enable-WindowsOptionalFeature -Online -FeatureName     WCF-Services45 
 Enable-WindowsOptionalFeature -Online -FeatureName         WCF-HTTP-Activation45 
